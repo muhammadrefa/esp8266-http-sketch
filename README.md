@@ -1,6 +1,6 @@
 esp8266 HTTP Sketch
 =========================
-Arduino IDE sketch to use HTTP GET and POST in esp8266
+Arduino IDE sketch to use HTTP GET and POST in esp8266. PHP example included.
 
 How to use?
 -------------------------
