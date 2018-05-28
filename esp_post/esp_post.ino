@@ -52,7 +52,8 @@ void loop() {
         USE_SERIAL.print("[HTTP] begin...\n");
         // configure traged server and url
         //http.begin("https://192.168.1.12/test.html", "7a 9c f4 db 40 d3 62 5a 6e 21 bc 5c cc 66 c8 3e a1 45 59 38"); //HTTPS
-        http.begin("http://192.168.1.12/test.html"); //HTTP
+        //http.begin("http://192.168.1.12/test.html"); //HTTP
+        http.begin("http://192.168.1.12/coba_post.php"); //POST page target
 
         // Mengirim data POST
         http.addHeader("Content-Type", "application/x-www-form-urlencoded");
